@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bannerSection {
+    background: linear-gradient(180deg, #F4E7D7 0%, rgba(244, 231, 215, 0) 152.08%), #FFFF;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 21px 20px 0px 21px;
+}
+
+.navbarList ul {
+    display: flex;
+    gap: 48px;
+    list-style-type: none;
+}
+
+.aboutus {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+    color: #FE6F46;
+}
+
+.about {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+}
+
+.about:hover {
+    color: #FE6F46;
+    cursor: pointer;
+}
+
+.navbarLogo {
+    display: none;
+}
+
+.digitalSection {
+    margin-top: 135px;
+    text-align: center;
+    padding-bottom: 135px;
+}
+.commonHeading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    color: #101118;
+}
+.digitalSection h1 {
+    max-width: 520px;
+    margin: 0 auto 18px auto ;
+}
+
+.digitalSection p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #717484;
+    max-width: 493px;
+    margin: 0 auto;
+}
+/*First Section Completed */
+
+.missionSection{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #FFFFFF;
+}
+.missionSection p{
+    max-width: 727px;
+    align-items: center;
+    margin: 48px auto 0px auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;   
+    color: #717484;
+}
+/*Second Section Completed */
+
+.valueSection{
+    background: #FBF5EF;
+    text-align: center;
+    padding: 100px 0px;
+}
+.ourValue h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484; 
+    margin-bottom: 8px; 
+}
+.ourValue{
+    margin-bottom: 72px;
+}
+
+.valueCard img{
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+.valueCard h4{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #3F3D3D;
+    margin-top: 32px;
+}
+.valueCard p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #717484;
+    margin-top: 8px;
+    max-width: 291px;
+}
+.customerSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+/*Third Section Completed */
+
+
+/*Fourth Section Started */
+.authorDetails{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.teamSection{
+    background: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ourTeam h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484;
+    margin-bottom: 8px;
+}
+.ourTeam{
+    text-align: center;
+    margin-bottom: 66px;
+}
+.authorCard h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    color: #312F2E;
+}
+.authorName{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 2px;
+}
+
+
+/*Fifth section */
+.partnerSection{
+    background: #FAFAFB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.partnerSection h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484;
+    margin-bottom: 32px;
+}
+.ondwayimgWrapper{
+    display: flex;
+    column-gap: 102px;
+    row-gap: 56px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ondwayimgWrapper img{
+    width: 134px;
+}
+/*fifth section COmpleted */
+
+/*Sixth section Starts */
+.openingSection{
+    background: #FDF1EC;
+}
+.openingSection .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.openingTeam{
+    margin: 100px 0px;
+}
+.openingRoad{
+    margin: 72px 0px 71px 0px;
+}
+.openingTeam p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #717484;
+    margin-top: 27px;
+}
+.allOpenings{
+    border: 1px solid #FE6F46;
+    background: #FDF1EC;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #FE6F46;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 15.5px 24px;
+}
+button:hover {
+    background: #FE6F46;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+/*Sixth section completed */
+
+/*Last section starts */
+.footerSection{
+    background: #0D0D0D;
+}
+.footerTopWrapper{
+    border-bottom: 1px solid #5C5C5C;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+}
+.footerTop h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    color: #FFFFFF;    
+}
+.footerTop p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #BDBEC4;
+    margin-top: 12px;
+}
+.userSubscribe{
+    display: flex;
+    align-items: center;
+}
+.userSubscribe input{
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    padding: 13px 24px 13px 24px;
+    max-width: 400px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #9C9EAA;
+    display: flex;
+    
+}
+
+.userSubscribe button{
+    background: #FE6F46;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 10px 10px 0px;
+    padding: 14px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF; 
+}
+.footerBottom{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 72px 0px 0px 0px; 
+}
+.ondwayDescription{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #BDBEC4;    
+    max-width: 252px;
+}
+.ondwayDescription p{
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+.footerIcons{
+    display: flex;
+    gap: 16px;
+}
+.footerBottom > .footerContainer{
+    display: flex;
+    max-width: 1091px;
+    justify-content: space-between;
+    margin: 0;
+}
+.footerContainer{
+    max-width: 1280px;
+    margin: 0 auto;padding: 0px 20px;
+}
+.footerMenu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 658px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.aboutCompany h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.aboutCompany li{
+    margin-bottom: 10px;
+}
+.aboutCompany ul{
+    list-style-type: none;
+}
+.aboutCompany:last-of-type{
+    max-width: 233px;
+}
+.aboutCompany a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #BDBEC4;    
+}
+.aboutCompany p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #BDBEC4;
+    margin-bottom: 16px;
+}
+.footerContact{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+.policies ,a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #8F8F8F;
+    
+}
+.policies{
+    padding-bottom: 32px;
+    margin-top: 72px;
+}
+.policies .footerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.terms{
+    display: flex;
+    gap: 12px;
+}
+
+/*Media query section starts */
+@media only screen and (max-width:992px){
+    .authorDetails{
+        flex-direction: column;
+        align-items: center;
+    }
+    .authorName{
+        /* justify-content: initial; */
+        gap: 67px;
+    }
+    .navbarLogo{
+        display: block;
+        /* float: right; */
+    }
+    .navbarList ul {
+        display: none;
+    }
+    .authorCard{
+        margin-bottom: 93px;
+    }
+    .customerSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .valueCard{
+        margin-bottom: 40px;
+    }
+    .ondwayimgWrapper img:nth-last-child(1), .ondwayimgWrapper img:nth-last-child(2) {
+        display: none;
+    }
+    .ondwayimgWrapper{
+        width: 284px;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        column-gap: 14px;
+        margin-top: 32px;
+    }
+    .ondwayLogo{
+        display: flex;
+        justify-content: center;
+        row-gap: 14px;
+    }
+    .footerTop{
+        row-gap: 32px;
+        column-gap: 20px;
+        flex-direction: column;
+    }
+    .userSubscribe input{
+        padding: 10px 0px 10px 24px;
+    }
+    .userSubscribe button{
+        padding: 10px 20px;
+    }
+    .footerTop p{
+        margin-top: 10px;
+    }
+}  
+/*first media query completed */
+
+/*second media query */
+@media only screen and (max-width:768px){
+    .footerBottom > .footerContainer{
+        flex-direction: column;
+        row-gap: 48px;
+    }
+    .aboutCompany:first-child{
+        order: 2;
+    }
+    .aboutCompany:last-child{
+        order: 3;
+    }
+    .openingTeam{
+        order: 2;
+    }
+    .openingSection .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+    .openingTeam{
+        text-align: center;
+            margin: 0px 0px 64px 0px;
+    }
+    .allOpenings{
+        margin-top: 32px;
+        margin-bottom: 64px;
+    }
+    .openingTeam p{
+        margin-top: 20px;
+    }
+    .openingRoad{
+        margin: 64px 0px 0px 0px;
+    }
+}
+
+/*Third media query */
+@media only screen and (max-width:576px)
+{
+    .policies .footerContainer{
+       flex-direction: column;
+    }
+    .terms{
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+    .terms p{
+        display: none;
+    }
+    .policies .footerContainer div{
+        margin-bottom: 12px;
+    }
+    .policies{
+        margin-top: 48px;
+    }
+    .footerMenu{
+        row-gap: 48px;
+    }
+    .footerTop h2{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;        
+    }
+    .footerTop p{
+        font-weight: 400;
+        width: 274px;
+        font-size: 14px;
+        line-height: 160%;
+        color: #BDBEC4;        
+    }
+    .userSubscribe input{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        color: #9C9EAA; 
+        padding: 10px 0px 10px 24px;
+        max-width: 211px;       
+    }
+    .userSubscribe button{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 160%;
+        color: #FFFFFF;
+        max-width: 109px;
+        padding: 10px 20px;
+    }
+    .aboutCompany h2{
+        margin-bottom: 16px;
+    }
+    .partnerSection{
+        padding: 64px 38px 64px 40px;
+    }
+    .partnerSection h3{
+        margin-bottom: 0px;
+    }
+    .teamSection{
+        padding-top: 64px;
+    }
+    .commonHeading{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #312F2E;
+    }
+    .ourTeam{
+        margin-bottom: 48px;
+    }
+    .valueSection{
+        padding-top: 64px 35px 64px 34px;
+    }
+    .missionSection{
+        padding: 64px 24px;
+    }
+    .digitalSection{
+        padding:73px 20px 74px 20px;
+        margin-top: 0px;
+    }
+}
